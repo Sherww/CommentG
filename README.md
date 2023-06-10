@@ -12,7 +12,5 @@ The data set could be found in [here](https://drive.google.com/drive/folders/1hC
 ## Train
 * The model training and prediction was conducted on a machine with Nvidia GTX 1080 GPU, Intel(R) Core(TM) i7-6700 CPU and 16 GB RAM. The operating system is Ubuntu.
 
-# Contact us
-Mail: xiaoweizhang@smail.nju.edu.cn
 
 
