@@ -12,7 +12,7 @@ You can find more details, analyses, and baseline results in our paper "ICG: A B
 
 * Selection criteria. We use the same selection criteria as Zhang et al.\[4], which can be seen as follows: 
 
-1) Projects with great popularity. Popular projects are generally actively developed and are likely to contain more inline comments. Following \[1-3], we use the Stars number to measure the popularity of a project on GitHub. We rank Java projects based on Star numbers, and select the top-ranked 1,000 projects with most stars as experimental projects.
+1) Projects with great popularity. Popular projects are generally actively developed and are likely to contain more inline comments. Following \[1-3], we use the Stars number to measure the popularity of a project on GitHub. We rank Java projects based on Star numbers, and select the top-ranked with most stars as experimental projects.
 
 2) English commented projects. We only consider projects with comments written in English. We first check if the comment can be encoded by ASCII. Then we calculate the percentage of comments that are all ASCII encoded in a project. If the percentage exceeds 90%, it will be considered as an English-commented project. Otherwise it will be considered as a non-English project and hence is removed.
 
